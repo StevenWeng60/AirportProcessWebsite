@@ -1,0 +1,111 @@
+  body,
+  html {
+   height: 100%;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+   box-sizing: border-box;
+  }
+
+  .fbox {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+
+  .fvideo {
+   width: 50%;
+   display:flex;
+  }
+
+  .ftext {
+   width:50%;
+   display:flex;
+   justify-content: left;
+  }
+
+  .bg-image {
+   /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img0 {
+ background-image: url("aaimage.png");
+}
+.img1 { background-image: url("kiosk.jpg"); }
+.img2 { background-image: url("metaldetector.jpg"); }
+.img3 { background-image: url("terminal.jpg"); }
+.img4 { background-image: url("jetway.jpg"); }
+.img5 { background-image: url("random3.jpg"); }
+.img6 { background-image: url("luggagepickup.jpg"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+   color: white;
+   font-weight: bold;
+   font-size: 80px;
+   border: 10px solid #f1f1f1;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 300px;
+   padding: 20px;
+   text-align: center;
+  }
+
+h1 {
+ font-size: 50px;
+ padding:20px;
+}
+h2 {
+ font-size: 30px;
+ padding: 20px;
+}
+p {
+ border: 4px solid black;
+ background-color:rgba(0,0,0, 0.4);
+ color:white;
+ text-shadow: 1.5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+ padding: 20px;
+ font-size: 30px;
+}
+
+p:hover {
+ font-size: 32px;
+}
+
+.vid1 {
+ padding: 20px;
+}
+
+.vid2 {
+ padding: 20px;
+}
+
+.vid3 {
+ padding: 20px;
+}
+
+.vid4 {
+ padding: 20px;
+}
+
+.vid5 {
+ padding: 20px;
+}
+
+.vid6 {
+ padding: 20px;
+}
